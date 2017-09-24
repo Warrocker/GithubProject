@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:gravity="center_vertical"
+    app:layout_scrollFlags="scroll"
+    android:background="@color/colorBlueLight">
+
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/ripple_arrow_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        app:mrl_rippleDelayClick="false"
+        app:mrl_rippleDimension="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true">
+    <com.github.warrocker.githubproject.custom_view.ArrowBackImageView
+        android:id="@+id/img_back"
+        android:layout_width="@dimen/progress_size"
+        android:layout_height="@dimen/progress_size"
+        android:scaleType="center"
+        app:srcCompat="@drawable/arrow_back" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/title_text"
+        android:textAllCaps="false"
+        android:textSize="@dimen/title_size"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="@color/colorTitle"
+        android:layout_toEndOf="@+id/ripple_arrow_back"
+        android:layout_centerVertical="true"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+</RelativeLayout>

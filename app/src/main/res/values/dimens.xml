@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="app_bar_height_search">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="margin_light">5dp</dimen>
+    <dimen name="text_splash">26sp</dimen>
+    <dimen name="splash_logo_height">80dp</dimen>
+    <dimen name="splash_text_bottom">68dp</dimen>
+    <dimen name="details_picture_size">110dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_center_picture">31dp</dimen>
+    <dimen name="progress_size">40dp</dimen>
+    <dimen name="item_size">50dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="padding">3dp</dimen>
+    <dimen name="min_width">200dp</dimen>
+    <dimen name="icon_size">60dp</dimen>
+    <dimen name="splitter_height">1dp</dimen>
+    <dimen name="margin_icon_small">10dp</dimen>
+    <dimen name="margin_main">10dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="desc_size">14sp</dimen>
+</resources>
